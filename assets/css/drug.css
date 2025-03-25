@@ -1,0 +1,82 @@
+body{
+font-family: Arial, sans-serif;
+background: url('file:///C:/xampp/htdocs/Hospital-PHP/assets/images/drug-bg.jpeg') no-repeat center center fixed;
+background-size: cover;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+backdrop-filter: blur(5px);
+}
+
+.container{
+	width: 100%;
+	max-width: 500px;
+	background: rgba(255, 255, 255, 0.85);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+	text-align: center;
+	color: #333333;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+	width:100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius:4px;
+	font-size: 16px;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+button {
+	width: 100%;
+	background-color: #28a745;
+	color: white;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+buttion:hover {
+	background-color: #218838;
+}
+
+.error {
+	color: red;
+	margin-bottom: 10px;
+}
+
+a {
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #007bff;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+	
